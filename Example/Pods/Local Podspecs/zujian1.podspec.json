@@ -18,5 +18,5 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "zujian1/Classes/**/*"
+  "source_files": "Example/class/**/*"
 }

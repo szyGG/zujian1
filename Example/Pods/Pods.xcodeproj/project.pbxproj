@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0560EA1529B0A9612543C09C53D9DCF1 /* GoodTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1019C0FA800A6E72195DCB1A714DEF83 /* GoodTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		09175D094F740CB10443B677B2C74697 /* Pods-zujian1_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F779E10593799F118C9B28AA107BF7F3 /* Pods-zujian1_Example-dummy.m */; };
-		226DAD635D030F2C6078D5B57E29DC87 /* GoodTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B902E378E4DF834778CF4DF76002886 /* GoodTableViewController.m */; };
-		2C50289CEC3A8AC7EBEB4E88759A9BAC /* zujian1-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF77D9608D6894724EDEDDBAC95B803 /* zujian1-dummy.m */; };
+		1FFFC0CF71E7DFDA88E35E9AE3BAAB56 /* DeCollectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CC77A6CAEBACD1993132D95BD5377EE7 /* DeCollectionViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		326FFD9B9F68388BDA0F6A8A3DF6E73A /* Pods-zujian1_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D42CE3A5410C536ACADCAFA7157296DE /* Pods-zujian1_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		474FC19FE62815576A000ABAB714906D /* Country.h in Headers */ = {isa = PBXBuildFile; fileRef = 69271C2AB27F59BE00754961989446C2 /* Country.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5EA12F9E4FF02DF1882F4004E0A30777 /* Country.m in Sources */ = {isa = PBXBuildFile; fileRef = 19FB587E673A52C3AE7F60523EA89120 /* Country.m */; };
+		50E37528B6289E58E5F78FB115F35CEE /* Country.h in Headers */ = {isa = PBXBuildFile; fileRef = E1347973C4070177BE4FDBC8BD058BF7 /* Country.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		696DFC373B4A20C7917E2C2D4DC3D887 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		782BCAF6CE7703AA70EFDC88F83BF2C9 /* Pods-zujian1_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F3DA7767B41A0B939812D1A903D7B2 /* Pods-zujian1_Tests-dummy.m */; };
 		8CB626E1E754C2803911D2FA6CE6F315 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		94B8C73607277A55EC94AF60154B4015 /* zujian1-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF08FE1E4CCC8BB0B19C96AE13EE35A9 /* zujian1-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CB8FA577AEC9AC8DEC7CB484398B060 /* Country.m in Sources */ = {isa = PBXBuildFile; fileRef = 102D3F19C331EA0D409FD3E1D2C327C6 /* Country.m */; };
+		9F753705C76EDB1AEAF1A02206D90EB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A13D3476DAFCF5C946100718EBE6EC47 /* DeCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3955548BE32FDC1ADA25A51DD01ABE9E /* DeCollectionViewController.m */; };
+		A5EF5B6FB708203EE123EE6C0C737B27 /* zujian1-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 742772FFA81CD0CE1C49F7FB7E64F9F6 /* zujian1-dummy.m */; };
+		AF26F15B8AF137F2311A869008C65E1B /* zujian1-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC156B681AD7F3D4B10BF05A32F0F6E /* zujian1-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA2F5AA8CFAC6AC4F7ECCE69F0E356B3 /* Pods-zujian1_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9120DEC1575D0EE8011CBB99387D7B68 /* Pods-zujian1_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C44825DAE6EE53035FB5C6C91E39D1A0 /* GoodTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 187AF8F6A034675373D5106A134580CD /* GoodTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF31187566FA405BBF8242F0136C3F83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F548A333718F6BBFFFAFF42ABE795075 /* GoodTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E8B029FB604456B4F3F74C577483A4 /* GoodTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,43 +43,53 @@
 
 /* Begin PBXFileReference section */
 		041DC39B9F222F131387B3E598BB1FC5 /* Pods-zujian1_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-zujian1_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		076D15635B1DA6057606E2950035A49B /* zujian1.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = zujian1.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0D987A90E18F3905379EF04952EEE1FE /* Pods-zujian1_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-zujian1_Tests-Info.plist"; sourceTree = "<group>"; };
+		1019C0FA800A6E72195DCB1A714DEF83 /* GoodTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GoodTableViewController.h; path = Example/class/GoodTableViewController.h; sourceTree = "<group>"; };
+		102D3F19C331EA0D409FD3E1D2C327C6 /* Country.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Country.m; path = Example/class/Country.m; sourceTree = "<group>"; };
+		111A64979C7E808D651976463D0505A0 /* zujian1-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "zujian1-Info.plist"; sourceTree = "<group>"; };
 		132E0892B4835CB5B9074111FCEBED48 /* Pods_zujian1_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_zujian1_Tests.framework; path = "Pods-zujian1_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		187AF8F6A034675373D5106A134580CD /* GoodTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GoodTableViewController.h; path = zujian1/Classes/GoodTableViewController.h; sourceTree = "<group>"; };
-		19FB587E673A52C3AE7F60523EA89120 /* Country.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Country.m; path = zujian1/Classes/Country.m; sourceTree = "<group>"; };
-		1B902E378E4DF834778CF4DF76002886 /* GoodTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GoodTableViewController.m; path = zujian1/Classes/GoodTableViewController.m; sourceTree = "<group>"; };
-		20AD5AD15503556C092E54ABF9F4AE3F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		20EA6480FD3DAE2B53CB1BC8E827E5F8 /* zujian1.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = zujian1.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		323265E43652BE56FBF1EC3ACA474790 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		35D717F36A0B04EF1CDE1D5A87B0E79D /* zujian1.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = zujian1.modulemap; sourceTree = "<group>"; };
 		38D2318F9F9C67AC1C643E5012950C4C /* Pods-zujian1_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-zujian1_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3E539614F3CB4E7B12E9C94E224143E1 /* zujian1-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "zujian1-prefix.pch"; sourceTree = "<group>"; };
+		3955548BE32FDC1ADA25A51DD01ABE9E /* DeCollectionViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DeCollectionViewController.m; path = Example/class/DeCollectionViewController.m; sourceTree = "<group>"; };
 		43092F92669334EBDA536CA5DADCA6C2 /* Pods-zujian1_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-zujian1_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		58B0AC2457AE69728959E23F7657708B /* Pods-zujian1_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-zujian1_Example-frameworks.sh"; sourceTree = "<group>"; };
-		69271C2AB27F59BE00754961989446C2 /* Country.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Country.h; path = zujian1/Classes/Country.h; sourceTree = "<group>"; };
 		7426699A1CE20A4079D813E93CF5870E /* Pods-zujian1_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-zujian1_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		742772FFA81CD0CE1C49F7FB7E64F9F6 /* zujian1-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "zujian1-dummy.m"; sourceTree = "<group>"; };
 		7C44033976B33E36927D20307F50FD0D /* Pods-zujian1_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-zujian1_Example-Info.plist"; sourceTree = "<group>"; };
+		7CD36BEE7CF7FE95F99D209F0142DBC6 /* zujian1.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = zujian1.xcconfig; sourceTree = "<group>"; };
 		7EA348702F32103D5B7FAD9D829DABAD /* Pods-zujian1_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-zujian1_Tests.modulemap"; sourceTree = "<group>"; };
+		8FDBA34E6C54A45267D019185F3560FB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9120DEC1575D0EE8011CBB99387D7B68 /* Pods-zujian1_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-zujian1_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9C3840F0467D2302CBA4BED8EA9DD9C8 /* zujian1.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = zujian1.xcconfig; sourceTree = "<group>"; };
+		931C30D0C629E298CA6FD43EBF4FF015 /* zujian1-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "zujian1-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A5DA3B89E430817D9EAEB84D86AABF57 /* Pods-zujian1_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-zujian1_Example.modulemap"; sourceTree = "<group>"; };
 		A64E6DBA333A92AA328CE8C9784C740C /* Pods_zujian1_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_zujian1_Example.framework; path = "Pods-zujian1_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A83B45B5338D49602A8C8342A7C30EBB /* Pods-zujian1_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-zujian1_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B30F8804BC15D4867ED189B9A091B0B5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		C1BEB338E34A43E0DDD1E2AFC640E675 /* Pods-zujian1_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-zujian1_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C3E8B029FB604456B4F3F74C577483A4 /* GoodTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GoodTableViewController.m; path = Example/class/GoodTableViewController.m; sourceTree = "<group>"; };
+		CC77A6CAEBACD1993132D95BD5377EE7 /* DeCollectionViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DeCollectionViewController.h; path = Example/class/DeCollectionViewController.h; sourceTree = "<group>"; };
 		D42CE3A5410C536ACADCAFA7157296DE /* Pods-zujian1_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-zujian1_Example-umbrella.h"; sourceTree = "<group>"; };
-		D54F808355F74463634D62A12FCFF882 /* zujian1-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "zujian1-Info.plist"; sourceTree = "<group>"; };
 		D69A8392E26D57B05EDD17E253D1B0C8 /* Pods-zujian1_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-zujian1_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DA9B6CC7E5EE95F28DF2067B0D965A01 /* zujian1.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = zujian1.modulemap; sourceTree = "<group>"; };
-		DEF77D9608D6894724EDEDDBAC95B803 /* zujian1-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "zujian1-dummy.m"; sourceTree = "<group>"; };
+		DAC156B681AD7F3D4B10BF05A32F0F6E /* zujian1-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "zujian1-umbrella.h"; sourceTree = "<group>"; };
+		E1347973C4070177BE4FDBC8BD058BF7 /* Country.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Country.h; path = Example/class/Country.h; sourceTree = "<group>"; };
 		E4F3DA7767B41A0B939812D1A903D7B2 /* Pods-zujian1_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-zujian1_Tests-dummy.m"; sourceTree = "<group>"; };
 		E96AC326A690B0078C12EC8637A4C71F /* Pods-zujian1_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-zujian1_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		EF08FE1E4CCC8BB0B19C96AE13EE35A9 /* zujian1-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "zujian1-umbrella.h"; sourceTree = "<group>"; };
 		F779E10593799F118C9B28AA107BF7F3 /* Pods-zujian1_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-zujian1_Example-dummy.m"; sourceTree = "<group>"; };
 		FF7D7116F231A7838ABCE4565012F748 /* zujian1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = zujian1.framework; path = zujian1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0F7A3494DE659F44584DAFF2A14E705F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F753705C76EDB1AEAF1A02206D90EB9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		29671D56D1204E6672A252E61FA57AC7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -94,14 +106,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		37443DA881E9F65AC61310AA585A9D01 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FF31187566FA405BBF8242F0136C3F83 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -112,16 +116,6 @@
 				3AB52BA4AD11AE784776F503AF31E29B /* Pods-zujian1_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		2070FCC797C167F6EAE53DC29283D715 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				323265E43652BE56FBF1EC3ACA474790 /* LICENSE */,
-				20AD5AD15503556C092E54ABF9F4AE3F /* README.md */,
-				076D15635B1DA6057606E2950035A49B /* zujian1.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		3AB52BA4AD11AE784776F503AF31E29B /* Pods-zujian1_Tests */ = {
@@ -140,18 +134,20 @@
 			path = "Target Support Files/Pods-zujian1_Tests";
 			sourceTree = "<group>";
 		};
-		639DF3C497C3B4BA9C50CCB983CE67A8 /* Support Files */ = {
+		405CA881E558DE70807444331CF56FE5 /* zujian1 */ = {
 			isa = PBXGroup;
 			children = (
-				DA9B6CC7E5EE95F28DF2067B0D965A01 /* zujian1.modulemap */,
-				9C3840F0467D2302CBA4BED8EA9DD9C8 /* zujian1.xcconfig */,
-				DEF77D9608D6894724EDEDDBAC95B803 /* zujian1-dummy.m */,
-				D54F808355F74463634D62A12FCFF882 /* zujian1-Info.plist */,
-				3E539614F3CB4E7B12E9C94E224143E1 /* zujian1-prefix.pch */,
-				EF08FE1E4CCC8BB0B19C96AE13EE35A9 /* zujian1-umbrella.h */,
+				E1347973C4070177BE4FDBC8BD058BF7 /* Country.h */,
+				102D3F19C331EA0D409FD3E1D2C327C6 /* Country.m */,
+				CC77A6CAEBACD1993132D95BD5377EE7 /* DeCollectionViewController.h */,
+				3955548BE32FDC1ADA25A51DD01ABE9E /* DeCollectionViewController.m */,
+				1019C0FA800A6E72195DCB1A714DEF83 /* GoodTableViewController.h */,
+				C3E8B029FB604456B4F3F74C577483A4 /* GoodTableViewController.m */,
+				BB298D1A60CFAFF7EA61AFC962851593 /* Pod */,
+				B730729F07ECCE32D902F145C3799D34 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/zujian1";
+			name = zujian1;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		6688CDB48BA5CA0E87E11BF8396DA331 /* Pods-zujian1_Example */ = {
@@ -171,28 +167,6 @@
 			path = "Target Support Files/Pods-zujian1_Example";
 			sourceTree = "<group>";
 		};
-		66D1397B3E163197D4BE99085F98E293 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				84AC793EB7E61A4320EA85997D4F47B3 /* zujian1 */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		84AC793EB7E61A4320EA85997D4F47B3 /* zujian1 */ = {
-			isa = PBXGroup;
-			children = (
-				69271C2AB27F59BE00754961989446C2 /* Country.h */,
-				19FB587E673A52C3AE7F60523EA89120 /* Country.m */,
-				187AF8F6A034675373D5106A134580CD /* GoodTableViewController.h */,
-				1B902E378E4DF834778CF4DF76002886 /* GoodTableViewController.m */,
-				2070FCC797C167F6EAE53DC29283D715 /* Pod */,
-				639DF3C497C3B4BA9C50CCB983CE67A8 /* Support Files */,
-			);
-			name = zujian1;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		A3FA811CD38C881BEB4135811D6B7A09 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -201,6 +175,30 @@
 				FF7D7116F231A7838ABCE4565012F748 /* zujian1.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B730729F07ECCE32D902F145C3799D34 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				35D717F36A0B04EF1CDE1D5A87B0E79D /* zujian1.modulemap */,
+				7CD36BEE7CF7FE95F99D209F0142DBC6 /* zujian1.xcconfig */,
+				742772FFA81CD0CE1C49F7FB7E64F9F6 /* zujian1-dummy.m */,
+				111A64979C7E808D651976463D0505A0 /* zujian1-Info.plist */,
+				931C30D0C629E298CA6FD43EBF4FF015 /* zujian1-prefix.pch */,
+				DAC156B681AD7F3D4B10BF05A32F0F6E /* zujian1-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/zujian1";
+			sourceTree = "<group>";
+		};
+		BB298D1A60CFAFF7EA61AFC962851593 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B30F8804BC15D4867ED189B9A091B0B5 /* LICENSE */,
+				8FDBA34E6C54A45267D019185F3560FB /* README.md */,
+				20EA6480FD3DAE2B53CB1BC8E827E5F8 /* zujian1.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -215,7 +213,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				66D1397B3E163197D4BE99085F98E293 /* Development Pods */,
+				EDD926D868A116407E19549A867C3F1A /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				A3FA811CD38C881BEB4135811D6B7A09 /* Products */,
 				1963014BBD7E6A696633E17808F6E087 /* Targets Support Files */,
@@ -230,6 +228,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EDD926D868A116407E19549A867C3F1A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				405CA881E558DE70807444331CF56FE5 /* zujian1 */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -241,13 +247,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		86EA28E3AC88E3E26C8E251F531D6F9B /* Headers */ = {
+		C92C252807B11191398592813847CD70 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				474FC19FE62815576A000ABAB714906D /* Country.h in Headers */,
-				C44825DAE6EE53035FB5C6C91E39D1A0 /* GoodTableViewController.h in Headers */,
-				94B8C73607277A55EC94AF60154B4015 /* zujian1-umbrella.h in Headers */,
+				50E37528B6289E58E5F78FB115F35CEE /* Country.h in Headers */,
+				1FFFC0CF71E7DFDA88E35E9AE3BAAB56 /* DeCollectionViewController.h in Headers */,
+				0560EA1529B0A9612543C09C53D9DCF1 /* GoodTableViewController.h in Headers */,
+				AF26F15B8AF137F2311A869008C65E1B /* zujian1-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,12 +309,12 @@
 		};
 		B76ACA3533CF4A29234522C262738402 /* zujian1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C9F862AD5C49579DFA73232463A2B1FF /* Build configuration list for PBXNativeTarget "zujian1" */;
+			buildConfigurationList = 65F0523778CF3FDEF9810A620018A0F9 /* Build configuration list for PBXNativeTarget "zujian1" */;
 			buildPhases = (
-				86EA28E3AC88E3E26C8E251F531D6F9B /* Headers */,
-				8DC3CB54AC678E118AB554F9217D8488 /* Sources */,
-				37443DA881E9F65AC61310AA585A9D01 /* Frameworks */,
-				90CFB32613A33D95907370AF36001722 /* Resources */,
+				C92C252807B11191398592813847CD70 /* Headers */,
+				DE9B35C4471D01CAEF7509E302176B64 /* Sources */,
+				0F7A3494DE659F44584DAFF2A14E705F /* Frameworks */,
+				6DD73CAC0874732E6AC8B040A56E8658 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -355,7 +362,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90CFB32613A33D95907370AF36001722 /* Resources */ = {
+		6DD73CAC0874732E6AC8B040A56E8658 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -372,21 +379,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8DC3CB54AC678E118AB554F9217D8488 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5EA12F9E4FF02DF1882F4004E0A30777 /* Country.m in Sources */,
-				226DAD635D030F2C6078D5B57E29DC87 /* GoodTableViewController.m in Sources */,
-				2C50289CEC3A8AC7EBEB4E88759A9BAC /* zujian1-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D6F2608D7778F2ABA6D44D1E58BC8E29 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				09175D094F740CB10443B677B2C74697 /* Pods-zujian1_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE9B35C4471D01CAEF7509E302176B64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CB8FA577AEC9AC8DEC7CB484398B060 /* Country.m in Sources */,
+				A13D3476DAFCF5C946100718EBE6EC47 /* DeCollectionViewController.m in Sources */,
+				F548A333718F6BBFFFAFF42ABE795075 /* GoodTableViewController.m in Sources */,
+				A5EF5B6FB708203EE123EE6C0C737B27 /* zujian1-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +424,37 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		2307EC46D15FF35FB84C7056808C4F5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CD36BEE7CF7FE95F99D209F0142DBC6 /* zujian1.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/zujian1/zujian1-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/zujian1/zujian1-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/zujian1/zujian1.modulemap";
+				PRODUCT_MODULE_NAME = zujian1;
+				PRODUCT_NAME = zujian1;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		27557E26A8134CB547860DE0CDE04D08 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 43092F92669334EBDA536CA5DADCA6C2 /* Pods-zujian1_Tests.debug.xcconfig */;
@@ -448,38 +487,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		3A1E1D4077E6AF703FC7ACA8621BDA1F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C3840F0467D2302CBA4BED8EA9DD9C8 /* zujian1.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/zujian1/zujian1-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/zujian1/zujian1-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/zujian1/zujian1.modulemap";
-				PRODUCT_MODULE_NAME = zujian1;
-				PRODUCT_NAME = zujian1;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -574,9 +581,9 @@
 			};
 			name = Debug;
 		};
-		6CC59FF9D932994A534641855E487834 /* Debug */ = {
+		74E67BB5860270FD6EAE388D6BA85B9B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C3840F0467D2302CBA4BED8EA9DD9C8 /* zujian1.xcconfig */;
+			baseConfigurationReference = 7CD36BEE7CF7FE95F99D209F0142DBC6 /* zujian1.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -600,10 +607,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -758,11 +766,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C9F862AD5C49579DFA73232463A2B1FF /* Build configuration list for PBXNativeTarget "zujian1" */ = {
+		65F0523778CF3FDEF9810A620018A0F9 /* Build configuration list for PBXNativeTarget "zujian1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6CC59FF9D932994A534641855E487834 /* Debug */,
-				3A1E1D4077E6AF703FC7ACA8621BDA1F /* Release */,
+				2307EC46D15FF35FB84C7056808C4F5B /* Debug */,
+				74E67BB5860270FD6EAE388D6BA85B9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

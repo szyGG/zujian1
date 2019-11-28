@@ -11,6 +11,7 @@
 #endif
 
 #import "Country.h"
+#import "DeCollectionViewController.h"
 #import "GoodTableViewController.h"
 
 FOUNDATION_EXPORT double zujian1VersionNumber;
