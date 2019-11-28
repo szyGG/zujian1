@@ -11,6 +11,7 @@
 #endif
 
 #import "Country.h"
+#import "GoodTableViewController.h"
 
 FOUNDATION_EXPORT double zujian1VersionNumber;
 FOUNDATION_EXPORT const unsigned char zujian1VersionString[];
