@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		09175D094F740CB10443B677B2C74697 /* Pods-zujian1_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F779E10593799F118C9B28AA107BF7F3 /* Pods-zujian1_Example-dummy.m */; };
 		326FFD9B9F68388BDA0F6A8A3DF6E73A /* Pods-zujian1_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D42CE3A5410C536ACADCAFA7157296DE /* Pods-zujian1_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5015E4F0238FA018006A1363 /* GoodTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5015E4EE238FA018006A1363 /* GoodTableViewController.h */; };
+		5015E4F1238FA018006A1363 /* GoodTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5015E4EF238FA018006A1363 /* GoodTableViewController.m */; };
 		696DFC373B4A20C7917E2C2D4DC3D887 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		782BCAF6CE7703AA70EFDC88F83BF2C9 /* Pods-zujian1_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F3DA7767B41A0B939812D1A903D7B2 /* Pods-zujian1_Tests-dummy.m */; };
 		7C588D9EBBE9E37735EFC140A2FE65C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -40,12 +42,14 @@
 /* Begin PBXFileReference section */
 		041DC39B9F222F131387B3E598BB1FC5 /* Pods-zujian1_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-zujian1_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0D987A90E18F3905379EF04952EEE1FE /* Pods-zujian1_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-zujian1_Tests-Info.plist"; sourceTree = "<group>"; };
-		132E0892B4835CB5B9074111FCEBED48 /* Pods_zujian1_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_zujian1_Tests.framework; path = "Pods-zujian1_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		132E0892B4835CB5B9074111FCEBED48 /* Pods_zujian1_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zujian1_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		38D2318F9F9C67AC1C643E5012950C4C /* Pods-zujian1_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-zujian1_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		38D25CBB76600633267813EC0B9300B2 /* zujian1.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = zujian1.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		38D25CBB76600633267813EC0B9300B2 /* zujian1.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = zujian1.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		43092F92669334EBDA536CA5DADCA6C2 /* Pods-zujian1_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-zujian1_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4848CE504B055844048B24DE2E0151D0 /* Country.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Country.m; path = zujian1/Classes/Country.m; sourceTree = "<group>"; };
+		5015E4EE238FA018006A1363 /* GoodTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoodTableViewController.h; sourceTree = "<group>"; };
+		5015E4EF238FA018006A1363 /* GoodTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoodTableViewController.m; sourceTree = "<group>"; };
 		58B0AC2457AE69728959E23F7657708B /* Pods-zujian1_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-zujian1_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6917D9C18CFA6C4225F6092049034720 /* zujian1-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "zujian1-Info.plist"; sourceTree = "<group>"; };
 		6E9C790D0A42986AAE3B948086C8712A /* zujian1-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "zujian1-dummy.m"; sourceTree = "<group>"; };
@@ -55,12 +59,12 @@
 		7EA348702F32103D5B7FAD9D829DABAD /* Pods-zujian1_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-zujian1_Tests.modulemap"; sourceTree = "<group>"; };
 		90E32E98EAB98640CE9375FEFDF26A5E /* zujian1-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "zujian1-umbrella.h"; sourceTree = "<group>"; };
 		9120DEC1575D0EE8011CBB99387D7B68 /* Pods-zujian1_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-zujian1_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A5DA3B89E430817D9EAEB84D86AABF57 /* Pods-zujian1_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-zujian1_Example.modulemap"; sourceTree = "<group>"; };
-		A64E6DBA333A92AA328CE8C9784C740C /* Pods_zujian1_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_zujian1_Example.framework; path = "Pods-zujian1_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A64E6DBA333A92AA328CE8C9784C740C /* Pods_zujian1_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zujian1_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A83B45B5338D49602A8C8342A7C30EBB /* Pods-zujian1_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-zujian1_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B2057FBD9D3207470B82A51D9F7E0E51 /* zujian1-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "zujian1-prefix.pch"; sourceTree = "<group>"; };
-		C103F886325845DD2603430FFA0EE681 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C103F886325845DD2603430FFA0EE681 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C1BEB338E34A43E0DDD1E2AFC640E675 /* Pods-zujian1_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-zujian1_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D42CE3A5410C536ACADCAFA7157296DE /* Pods-zujian1_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-zujian1_Example-umbrella.h"; sourceTree = "<group>"; };
 		D69A8392E26D57B05EDD17E253D1B0C8 /* Pods-zujian1_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-zujian1_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -68,9 +72,9 @@
 		DC74D284CF420BD6E0959CFA66CDAC4F /* Country.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Country.h; path = zujian1/Classes/Country.h; sourceTree = "<group>"; };
 		E4F3DA7767B41A0B939812D1A903D7B2 /* Pods-zujian1_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-zujian1_Tests-dummy.m"; sourceTree = "<group>"; };
 		E96AC326A690B0078C12EC8637A4C71F /* Pods-zujian1_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-zujian1_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F6D9E0EA9E3042125BE789CA37F4BEDC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F6D9E0EA9E3042125BE789CA37F4BEDC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F779E10593799F118C9B28AA107BF7F3 /* Pods-zujian1_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-zujian1_Example-dummy.m"; sourceTree = "<group>"; };
-		FF7D7116F231A7838ABCE4565012F748 /* zujian1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = zujian1.framework; path = zujian1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF7D7116F231A7838ABCE4565012F748 /* zujian1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = zujian1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +194,8 @@
 				4848CE504B055844048B24DE2E0151D0 /* Country.m */,
 				FA41EE8EE6834EEB2B3555ACFB89598B /* Pod */,
 				C50184C064E3958BFA130ABEFB12C48A /* Support Files */,
+				5015E4EE238FA018006A1363 /* GoodTableViewController.h */,
+				5015E4EF238FA018006A1363 /* GoodTableViewController.m */,
 			);
 			name = zujian1;
 			path = ../..;
@@ -249,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				326FFD9B9F68388BDA0F6A8A3DF6E73A /* Pods-zujian1_Example-umbrella.h in Headers */,
+				5015E4F0238FA018006A1363 /* GoodTableViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +385,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5015E4F1238FA018006A1363 /* GoodTableViewController.m in Sources */,
 				09175D094F740CB10443B677B2C74697 /* Pods-zujian1_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,8 +502,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
