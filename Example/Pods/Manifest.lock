@@ -1,5 +1,5 @@
 PODS:
-  - zujian1 (1.0.2)
+  - zujian1 (1.0.4)
 
 DEPENDENCIES:
   - zujian1 (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  zujian1: c5bf4727b913ae9ffe7e2acd730a6ba0caae175d
+  zujian1: 06848e3ccde582381942f97a92682ebd0b368055
 
 PODFILE CHECKSUM: fb66e10005d9f46d40f651045131b2b24b8a1dbf
 

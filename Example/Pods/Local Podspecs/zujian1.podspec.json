@@ -1,6 +1,6 @@
 {
   "name": "zujian1",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "summary": "组件1",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/szyGG/zujian1",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/szyGG/zujian1.git",
-    "tag": "1.0.2"
+    "tag": "1.0.4"
   },
   "platforms": {
     "ios": "8.0"
