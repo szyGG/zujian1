@@ -11,6 +11,7 @@
 		5015E51C2390B4C1006A1363 /* Country.m in Sources */ = {isa = PBXBuildFile; fileRef = 5015E5162390B4C1006A1363 /* Country.m */; };
 		5015E51D2390B4C1006A1363 /* GoodTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5015E5172390B4C1006A1363 /* GoodTableViewController.m */; };
 		5015E5232390B580006A1363 /* DeCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5015E5222390B580006A1363 /* DeCollectionViewController.m */; };
+		5015E5272390FCEE006A1363 /* SZY.m in Sources */ = {isa = PBXBuildFile; fileRef = 5015E5262390FCEE006A1363 /* SZY.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -49,6 +50,8 @@
 		5015E51B2390B4C1006A1363 /* Country.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Country.h; sourceTree = "<group>"; };
 		5015E5222390B580006A1363 /* DeCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeCollectionViewController.m; sourceTree = "<group>"; };
 		5015E5242390FC36006A1363 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		5015E5252390FCEE006A1363 /* SZY.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZY.h; sourceTree = "<group>"; };
+		5015E5262390FCEE006A1363 /* SZY.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZY.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* zujian1_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zujian1_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -115,6 +118,8 @@
 				5015E4F8238FB804006A1363 /* DeCollectionViewController.h */,
 				5015E5222390B580006A1363 /* DeCollectionViewController.m */,
 				5015E5242390FC36006A1363 /* Header.h */,
+				5015E5252390FCEE006A1363 /* SZY.h */,
+				5015E5262390FCEE006A1363 /* SZY.m */,
 			);
 			path = class;
 			sourceTree = "<group>";
@@ -389,6 +394,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5015E5272390FCEE006A1363 /* SZY.m in Sources */,
 				6003F59E195388D20070C39A /* SZYAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* SZYViewController.m in Sources */,
 				5015E51D2390B4C1006A1363 /* GoodTableViewController.m in Sources */,
